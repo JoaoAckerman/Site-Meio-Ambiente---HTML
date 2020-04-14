@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta charset="utf-8"/>
+<title>Planet Health</title>
+
+</head>
+<body>
+  <div id="interface">
+
+    <header id= "cabeçalho">
+
+    <hgroup>
+    <h1>Planet Health</h1>
+    <h2>To take care</h2>
+    </hgroup>
+    <img src="C:\Users\Jp\Desktop\HTML\imagens\nature1.jpg" width="200" height="121">
+     Cadastro
+     Login
+     Teste
+    </header>
+
+    <hgroup>
+      <h1>Meio - <br/> Ambiente</h1>        <!-- o "<br/>(br=Break row) significa o parágrafo(pular linha)"-->
+      <h2>As &nbsp; pessoas</h2>    <!-- o &nbsp; serve para dar o espaço a mais entre palavras-->
+      <h3>A importância</h3>
+    </hgroup>
+
+    <p>Preservar o meio ambiente é fundamental para manter a saúde do planeta e de todos os seres vivos que mo&shy;ram nele. Para celebrar o esforço em proteger os recursos naturais,
+    A ecologia é a ciência que estuda as relações entre os seres vivos e os meios onde vivem..
+    Os seres humanos só conseguem sobreviver graças à natureza. Afinal, usamos os animais e plantas para nos alimentar, água para beber e tomar banho, e muitos outros recursos que nem percebemos.</p>     <!-- a tag <p> é para definir parágrafos-->
+    <p>Você já pensou que a cadeira onde sentamos é feita de madeira, que veio de uma árvore? Grande parte das roupas é feita de algodão, que também vem de uma planta.
+    <h3>E o que mais ?</h3>
+    Proteger a natureza não é só cuidar da Mata Atlântica, mas sim preservar cada lugar por onde passamos e cada ser vivo que encontramos pelo caminho.
+    Na luta para salvar o planeta, todos podem participar. Nunca é cedo nem tarde demais para fazer sua parte. Separar o lixo reciclável do orgânico (não reciclável) é uma medida rápida e simples que ajuda a diminuir em até 40% a quantidade de material que vai parar nos lixões.
+    Uma latinha que se joga na rua, por exemplo, pode parecer apenas uma latinha. Mas, somada com outras, chega a entupir bueiros e causar enchentes. Por isso, se cada um ajudar um pouquinho, o planeta agradece de montão!**Super-<wbr/>humano**</p>
+
+    <!-- a tag <wb/r> significa word breaker serve para quebrar a palavras-->
+    <!-- o &shy  (Soft Hyphen) colocar o hífen entre as sílabas; serve para -->
+
+
+    <h1>Símbolos Especias</h1>
+    <p>
+      &lt;
+      &gt;
+      &le;
+      &ge;
+      &pound;
+      &yen;<br/>
+      &euro;
+      &copy;
+      &reg;
+      &trade;
+      &permil;<br/>
+      &sum;
+      &infin;
+      &times;
+      &plusmn;
+      &oplus;<br/>
+      &radic;
+      &ne;
+      &delta;
+      &Delta;
+      &Lambda;<br/>
+      &omega;
+      &phi;
+      &larr;
+      &rarr;
+      &Rarr;<br/>
+      &uarr;
+      &darr;
+      &harr;<br/>
+      &hearts;
+      &clubs;
+      &diams;
+      &spades;
+
+
+
+
+
+    </p>
+
+
+
+
+  </div>
+
+</body>
+</html>
