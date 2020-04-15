@@ -4,6 +4,13 @@
 
 <meta charset="utf-8"/>
 <title>Planet Health</title>
+<style>
+  p{
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+</style>
 
 </head>
 <body>
@@ -16,6 +23,7 @@
     <h2>To take care</h2>
     </hgroup>
     <img src="C:\Users\Jp\Desktop\HTML\imagens\nature1.jpg" width="200" height="121">
+    <br/>
      Cadastro
      Login
      Teste
@@ -23,21 +31,22 @@
 
     <hgroup>
       <h1>Meio - <br/> Ambiente</h1>        <!-- o "<br/>(br=Break row) significa o parágrafo(pular linha)"-->
-      <h2>As &nbsp; pessoas</h2>    <!-- o &nbsp; serve para dar o espaço a mais entre palavras-->
+      <h2 style ="text-align:center "> As &nbsp; pessoas</h2>    <!-- o &nbsp; serve para dar o espaço a mais entre palavras-->
       <h3>A importância</h3>
     </hgroup>
 
-    <p>Preservar o meio ambiente é fundamental para manter a saúde do planeta e de todos os seres vivos que mo&shy;ram nele. Para celebrar o esforço em proteger os recursos naturais,
-    A ecologia é a ciência que estuda as relações entre os seres vivos e os meios onde vivem..
+    <p><span style ="font-weight: bold;"> Preservar</span> o <b>Meio Ambiente</b> é <i>fundamental</i> para manter a <em>saúde</em> do <del>planeta</del> e de todos os seres vivos que mo&shy;ram nele. Para celebrar o esforço em proteger os recursos naturais,
+    A <span style ="font-weight: bolder;"> ecologia</span> é a ciência que estuda as relações entre os seres vivos e os meios onde vivem..
     Os seres humanos só conseguem sobreviver graças à natureza. Afinal, usamos os animais e plantas para nos alimentar, água para beber e tomar banho, e muitos outros recursos que nem percebemos.</p>     <!-- a tag <p> é para definir parágrafos-->
-    <p>Você já pensou que a cadeira onde sentamos é feita de madeira, que veio de uma árvore? Grande parte das roupas é feita de algodão, que também vem de uma planta.
+    <p>Você já pensou que a cadeira onde sentamos é feita de madeira, que veio de uma árvore? Grande parte das roupas é feita de algodão, que também vem de uma planta.<p>
     <h3>E o que mais ?</h3>
-    Proteger a natureza não é só cuidar da Mata Atlântica, mas sim preservar cada lugar por onde passamos e cada ser vivo que encontramos pelo caminho.
+    <p><span style ="text-decoration:underline;"> Proteger</span> a <span style ="text-decoration:overline;"> natureza</span> não é só <span style ="text-decoration:line-through;"> cuidar</span> da <span style ="text-decoration:none;"> Mata</span> Atlântica, mas sim preservar cada lugar por onde passamos e cada ser vivo que encontramos pelo caminho.
     Na luta para salvar o planeta, todos podem participar. Nunca é cedo nem tarde demais para fazer sua parte. Separar o lixo reciclável do orgânico (não reciclável) é uma medida rápida e simples que ajuda a diminuir em até 40% a quantidade de material que vai parar nos lixões.
     Uma latinha que se joga na rua, por exemplo, pode parecer apenas uma latinha. Mas, somada com outras, chega a entupir bueiros e causar enchentes. Por isso, se cada um ajudar um pouquinho, o planeta agradece de montão!**Super-<wbr/>humano**</p>
 
     <!-- a tag <wb/r> significa word breaker serve para quebrar a palavras-->
     <!-- o &shy  (Soft Hyphen) colocar o hífen entre as sílabas; serve para -->
+    <!-- a tag <b> = negrito, tag <i> = italico, tag <em> = enfâse, tag <del> riscar texto TAG EM HTML 5-->
 
 
     <h1>Símbolos Especias</h1>
@@ -75,12 +84,17 @@
       &clubs;
       &diams;
       &spades;
-
-
-
-
-
     </p>
+
+    <h3 bolder>Exemplos de formatação com tags em  HTML</h3>
+    <p>
+      Teste para sobrepor o texto <sup>Olá</sup> <sub>Equipe</sub>
+      Teste X<sup>2</sup>
+    </p>
+
+    <!--Temos a tag <code> para colocar códigos na página-->
+    <!--Temos a tag <pre> que significa pré formatado ou seja ele mantém a formação que foi colocada-->
+
 
 
 
