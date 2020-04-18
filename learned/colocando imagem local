@@ -1,0 +1,17 @@
+<!DOCTYPE html>               <!--Doctype indica que é um documento html-->
+<html>
+<head>
+<style>
+
+body{
+    background-image: url("imagens/bg.jpg");
+    background-image: url("colocar url"); // url da web
+}
+</style>
+</head>
+<body>
+
+
+
+</body>
+</html>
