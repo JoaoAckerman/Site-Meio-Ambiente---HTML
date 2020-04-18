@@ -5,15 +5,30 @@
 <meta charset="utf-8"/>
 <title>Planet Health</title>
 <style>
+
+ body{
+
+    background-color: #004680;
+    color: white;
+
+  }
   p{
     text-align: justify;
     text-indent: 50px;
   }
 
+
 </style>
+<!--color: rgba(255,255,255,0.9); para deixar a cor da letra transparente-->
+
+<!--background-color: #6A5ACD;  posso escrever a cor ou
+ colocar o código hexadecimal ou
+ colocar o código rgb background-color: rgb(13,15,56) ou
+colocar por parametros de hsb da forma = background-color: hsl(165,81%93%) e
+podemos colocar o alpha com o hsla para transparencia;-->
 
 </head>
-<body>
+<body>  <!--style="background-color: orange;" para mudar a cor direto na tag-->
   <div id="interface">
 
     <header id= "cabeçalho">
