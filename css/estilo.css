@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*Formatação de texto e cores do site*/
+
+body{
+
+   background-color: #004680;
+   color: white;
+
+ }
+ p{
+   text-align: justify;
+   text-indent: 50px;
+ }
+
+
+/*Formatação de imagens com legendas*/
+
+figure.foto-legenda{
+    position: relative;
+    border: 3px solid white;
+    width: 600px;
+    box-shadow: 1px 1px 10px white;
+
+
+
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+  opacity: 0;
+  position: absolute; /* position absolute para que todos figcaption fiquem dentro do foto legenda*/
+  top: 0px;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  padding: 10px;   /* criar espaço dentro do campo de legenda*/
+  box-sizing: border-box;
+  transition: opacity 1s;
+
+}
+
+figure.foto-legenda:hover figcaption{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+- Orientações para Cores
+color: rgba(255,255,255,0.9); para deixar a cor da letra transparente
+background-color: #6A5ACD;  posso escrever a cor ou
+colocar o código hexadecimal ou
+colocar o código rgb background-color: rgb(13,15,56) ou
+colocar por parametros de hsb da forma = background-color: hsl(165,81%93%) e
+podemos colocar o alpha com o hsla para transparencia;
+*/
+/*
+Formatação de imagens com legendas
+<figure>
+<img src="imagens\nature1.jpg" width="200" height="121"/>
+<figcaption>
+   A legenda vai aqui
+</figcaption>
+</figure>
+*/
