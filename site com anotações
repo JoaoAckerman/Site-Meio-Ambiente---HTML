@@ -25,11 +25,29 @@
       Imagem de teste
     </figcaption>
     </figure>
-
     <br/>
-     Cadastro
-     Login
-     Teste
+
+    <!--Painel de navegação do Site-->
+    <nav>
+      <h1>Menu Principal</h1>
+        <ul type="square">
+          <li>Home</li>
+          <li>O Vírus</li>
+          <li>Como se cuidar</li>
+          <li>Novidades</li>
+          <li>Saúde mental</li>
+          <li>Ajuda</li>
+          <ul>
+            <li>Problemas</li>
+            <li>Sugestões</li>
+          </ul>
+
+        </ul>
+    </nav>
+    <!--para "ol" lista ordenada, podemos ter tipos sendo type="1","a","A","i","I"-->
+    <!--posso usar o parâmetro start="3" para começar em determinado lugar na sequência, e ele só aceita números-->
+    <!--para "ul lista não ordenada, podemos ter tipos sendo type="square","circle" e "disk"-->
+
     </header>
 
     <hgroup>
