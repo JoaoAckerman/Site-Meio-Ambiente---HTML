@@ -50,7 +50,7 @@ figure.foto-legenda:hover figcaption{
 /*Formatação do Menu*/
 
 nav#menu{
-  display: block;
+  display: block; /*transformar o menu um bloco para que ele possa flutuar*/
 
 }
 nav#menu{
@@ -58,6 +58,7 @@ nav#menu{
   position: absolute;
   top: 0px;
   left: 780px;
+
 }
 
 nav#menu li{
@@ -65,13 +66,29 @@ nav#menu li{
   box-shadow: 1px 1px 2px white;
   border-radius: 8px;
   background-color: 	#363636;
-  padding: 7px;
+  padding: 10px;
   margin: 10px;
+  transition: background-color 1s;  /*Efeito de transição para quando o moouse passar por cima*/
+
+}
+
+nav#menu li:hover{      /*comando para mudar a cor do  item quando o mouse passar por cima */
+  background-color: #7cfc00;
 }
 
 nav#menu h1{
-  display: none;
+  display: none;  /*para não mostrar o h1 do menu principal*/
 }
+
+nav#menu a{
+  color: white;
+  text-decoration: none; /* para remover o o sublinhados dos hiperlinks*/
+}
+
+nav#menu a:hover{
+  color: #000000; /* mudar a cor do hyperlink quando o mouse passar por cima*/
+}
+
 
 
 
@@ -106,4 +123,6 @@ Formatação de imagens com legendas
    A legenda vai aqui
 </figcaption>
 </figure>
+Temos um site prefixer que quando colocado o trecco o código no mesmo ele gera códigos para todos os navegadores,
+caso haj algum problema de compatibilidade
 */
