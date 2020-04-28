@@ -5,12 +5,33 @@
 body{
 
    background-color: #004680;
-   color: white;
+   color: black;
 
  }
+
+ div#interface{
+   background-color: #dddddd;
+   border-radius: 10px;
+   width: 1100px;
+   margin: 100px auto 50px auto; /*centralizando o conteúdo da página*/
+   box-shadow: 1px 1px 10px white;
+   padding: 20px;
+ }
+
  p{
    text-align: justify;
    text-indent: 50px;
+
+ }
+
+ header#cabeçalho figure.covid{
+   position: absolute;
+   left: 800px;
+   top: 300px;
+ }
+
+ header#cabeçalho{
+   
  }
 
 
@@ -19,7 +40,8 @@ body{
 figure.foto-legenda{
     position: relative;
     border: 3px solid white;
-    width: 600px;
+    width: 400px;
+    height: 200px;
     box-shadow: 1px 1px 10px white;
 
 
