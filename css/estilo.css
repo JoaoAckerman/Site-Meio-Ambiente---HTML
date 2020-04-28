@@ -31,7 +31,7 @@ body{
  }
 
  header#cabeçalho{
-   
+
  }
 
 
@@ -79,7 +79,7 @@ nav#menu{
   text-transform: uppercase;  /*uppercase para deixar a letra em maíuscula*/
   position: absolute;
   top: 0px;
-  left: 780px;
+  left: 700px;
 
 }
 
