@@ -9,25 +9,58 @@ body{
 
  }
 
+ header#cabeçalho h1{
+   position: absolute;
+   top: -15px;
+   left: 105px;
+   color: white;
+   font-family: sans-serif;
+   font-size: 50px;
+   text-shadow: 2px 2px 2px black;
+ }
+
+ header#cabeçalho h2{
+   font-family: sans-serif;
+   font-size: 30px;
+   top: 10px;
+ }
+
+ header#cabeçalho{
+
+   border-bottom: 1px black solid;
+   height: 110px;
+   background: url("../imagens/back.png" ) no-repeat 970px 5px ;
+   background-size: 150px;
+
+
+ }
+
+
  div#interface{
    background-color: #dddddd;
    border-radius: 10px;
    width: 1100px;
    margin: 100px auto 50px auto; /*centralizando o conteúdo da página*/
-   box-shadow: 1px 1px 10px white;
-   padding: 20px;
+   box-shadow: 1px 1px 6px white;
+   padding: 0px 20px 20px 20px;
+   
  }
 
  p{
    text-align: justify;
    text-indent: 50px;
+ }
 
+ p#start{
+   text-align: justify;
+   text-indent: 50px;
+   margin: 0px 370px 0px 0px;
  }
 
  header#cabeçalho figure.covid{
    position: absolute;
    left: 850px;
-   top: 130px;
+   top: 350px;
 
  }
 
@@ -57,9 +90,7 @@ figure.covid:hover figcaption{
 
 
 
- header#cabeçalho{
 
- }
 
 
 /*Formatação de imagens com legendas*/
@@ -105,7 +136,7 @@ nav#menu{
 nav#menu{
   text-transform: uppercase;  /*uppercase para deixar a letra em maíuscula*/
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 700px;
 
 }
@@ -155,6 +186,8 @@ nav#menu a:hover{
 
 
 
+
+
 /*
 - Orientações para Cores
 color: rgba(255,255,255,0.9); para deixar a cor da letra transparente
@@ -164,6 +197,9 @@ colocar o código rgb background-color: rgb(13,15,56) ou
 colocar por parametros de hsb da forma = background-color: hsl(165,81%93%) e
 podemos colocar o alpha com o hsla para transparencia;
 */
+/*Importante pontuar:
+
+text-indent: 50px; - para paragrafo*/
 /*
 Formatação de imagens com legendas
 <figure>
