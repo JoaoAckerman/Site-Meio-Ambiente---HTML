@@ -54,14 +54,12 @@
 
     <!--Textos e imagens abaixo-->
     <section id="corpo">
-    <hgroup>
-             <!-- o "<br/>(br=Break row) significa o parágrafo(pular linha)"-->
-      <br/>
-      <h3>A importância</h3>
-    </hgroup>
 
-    <p><span style ="font-weight: bold;"> Preservar</span> o <b>Meio Ambiente</b> é <i>fundamental</i> para manter a <a href="https://vidasaudavel.einstein.br/" target="_blank"><font color ="yellow">saúde</font></a> do <del>planeta</del> e de todos os seres vivos que mo&shy;ram nele. Para celebrar o esforço em proteger os recursos naturais,
-    A <span style ="font-weight: bolder;"> ecologia</span> é a ciência que estuda as relações entre os seres vivos e os meios onde vivem..
+      <h3>A importância</h3>
+
+
+    <p>Preservar o Meio Ambiente é fundamental para manter a saúde do planeta e de todos os seres vivos que moram nele. Para celebrar o esforço em proteger os recursos naturais,
+    A ecologia é a ciência que estuda as relações entre os seres vivos e os meios onde vivem..
     Os seres humanos só conseguem sobreviver graças à natureza. Afinal, usamos os animais e plantas para nos alimentar, água para beber e tomar banho, e muitos outros recursos que nem percebemos.</p>     <!-- a tag <p> é para definir parágrafos-->
     <p>Você já pensou que a cadeira onde sentamos é feita de madeira, que veio de uma árvore? Grande parte das roupas é feita de algodão, que também vem de uma planta.<p>
     <h3>E o que mais ?</h3>
@@ -101,7 +99,7 @@
 
     <aside id="lateral">
 
-    <h2>Símbolos Especias</h2>
+    <h3>Símbolos Especias</h3>
     <p>
       &lt;
       &gt;
