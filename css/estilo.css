@@ -32,6 +32,7 @@ body{
 
  }
 
+
  header#cabeçalho{
 
    border-bottom: 1px gray solid;
@@ -183,6 +184,8 @@ section#corpo{
  border-right: 1px solid gray;
  padding-right: 20px;
 
+
+
 }
 
 aside#lateral{
@@ -195,7 +198,7 @@ aside#lateral{
 }
 
 footer#rodape{
-  clear: both;
+  clear: both; /*Limpar e manter configuração*/
   border-top: 1px solid gray;
 }
 
