@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@font-face {
+  font-family: 'fortitles';
+  src:url("../fonts/GeosansLight.ttf");
+}
 
 /*Formatação de texto e cores do site*/
 
@@ -6,34 +11,44 @@ body{
 
    background-color: #004680;
    color: black;
+   font-family: 'Quicksand', sans-serif;
 
  }
 
  header#cabeçalho h1{
    position: absolute;
-   top: -15px;
+   top: -20px;
    left: 105px;
    color: white;
-   font-family: sans-serif;
+   /*font-family: 'fortitles', sans-serif; - Outra fonte porém está na pasta do projeto*/
+   font-family: 'Quicksand', sans-serif;
    font-size: 50px;
    text-shadow: 2px 2px 2px black;
  }
 
  header#cabeçalho h2{
-   font-family: sans-serif;
    font-size: 30px;
    top: 10px;
+
  }
 
  header#cabeçalho{
 
-   border-bottom: 1px black solid;
+   border-bottom: 1px gray solid;
    height: 110px;
    background: url("../imagens/back.png" ) no-repeat 970px 5px ;
    background-size: 150px;
 
 
  }
+
+ header#cabeçalho figure.covid{
+   position: absolute;
+   left: 850px;
+   top: 430px;
+
+ }
+
 
 
  div#interface{
@@ -43,7 +58,8 @@ body{
    margin: 100px auto 50px auto; /*centralizando o conteúdo da página*/
    box-shadow: 1px 1px 6px white;
    padding: 0px 20px 20px 20px;
-   
+
+
  }
 
  p{
@@ -51,18 +67,6 @@ body{
    text-indent: 50px;
  }
 
- p#start{
-   text-align: justify;
-   text-indent: 50px;
-   margin: 0px 370px 0px 0px;
- }
-
- header#cabeçalho figure.covid{
-   position: absolute;
-   left: 850px;
-   top: 350px;
-
- }
 
 figure.covid img{
   border-radius: 8px;
@@ -143,12 +147,11 @@ nav#menu{
 
 nav#menu li{
   display: inline-block;
-  box-shadow: 1px 1px 2px white;
   border-radius: 8px;
-  background-color: 	#363636;
   padding: 10px;
   margin: 10px;
   transition: background-color 1s;  /*Efeito de transição para quando o moouse passar por cima*/
+
 
 }
 
@@ -161,12 +164,47 @@ nav#menu h1{
 }
 
 nav#menu a{
+  font-size: 17px;
   color: white;
   text-decoration: none; /* para remover o o sublinhados dos hiperlinks*/
+
 }
 
 nav#menu a:hover{
   color: #000000; /* mudar a cor do hyperlink quando o mouse passar por cima*/
+}
+
+
+
+section#corpo{
+ display: block; /*Definir o espço como um bloco*/
+ width: 700px ;
+ float: left;
+ border-right: 1px solid gray;
+ padding-right: 20px;
+
+}
+
+aside#lateral{
+  display: block; /*Definir o espço como um bloco*/
+  width: 350px ;
+  float: right;
+
+
+
+}
+
+footer#rodape{
+  clear: both;
+  border-top: 1px solid gray;
+}
+
+footer#rodape p{
+  text-align: center;
+}
+
+footer#rodape a{
+  text-decoration: none;
 }
 
 
@@ -210,4 +248,5 @@ Formatação de imagens com legendas
 </figure>
 Temos um site prefixer que quando colocado o trecco o código no mesmo ele gera códigos para todos os navegadores,
 caso haj algum problema de compatibilidade
+box-shadow: 1px 1px 2px white; para criar caixxa com sombra
 */
