@@ -184,17 +184,25 @@ section#corpo{
  border-right: 1px solid gray;
  padding-right: 20px;
 
-
-
 }
+
+table#tabela{
+  border: 1px solid gray;
+  border-spacing: 0px;
+  margin: auto;
+}
+
+table#tabela td{
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+
 
 aside#lateral{
   display: block; /*Definir o espço como um bloco*/
   width: 350px ;
   float: right;
-
-
-
 }
 
 footer#rodape{
