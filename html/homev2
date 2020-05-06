@@ -97,12 +97,12 @@
 
     <table id="tabela">
     <caption>Porcentagem de contaminação por Covid-19 no Brasil 2020</caption>
-    <tr><td rowspan="2">Norte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>10%</td></tr>
+    <tr><td rowspan="2">Norte</td> <td>10%</td></tr>
     <tr><td>10%</td></tr>
-    <tr><td>Sul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>40%</td></tr>
-    <tr><td>Sudeste&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>20%</td></tr>
-    <tr><td>Nordeste&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>20%</td></tr>
-
+    <tr><td>Sul</td><td>40%</td></tr>
+    <tr><td>Sudeste</td><td>20%</td></tr>
+    <tr><td>Nordeste</td><td>20%</td></tr>
+    <tr><td colspan="2">Linha Extra</td></tr>
     </table>
     </br>
     <!--a tag <table> serve para criação de tabelas -->
