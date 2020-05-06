@@ -195,7 +195,11 @@ table#tabela{
 table#tabela td{
   border: 1px solid gray;
   padding: 8px;
+  text-align: center;
+
 }
+
+/*Exemplo de posicionamento  de itens na tabela vertical-align: top;*/
 
 
 
