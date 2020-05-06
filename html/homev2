@@ -93,9 +93,25 @@
     </figure>
     <br/>
 
+    <h3>Comparação</h3>
+
+    <table id="tabela">
+    <caption>Porcentagem de contaminação por Covid-19 no Brasil 2020</caption>
+    <tr><td rowspan="2">Norte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>10%</td></tr>
+    <tr><td>10%</td></tr>
+    <tr><td>Sul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>40%</td></tr>
+    <tr><td>Sudeste&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>20%</td></tr>
+    <tr><td>Nordeste&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>20%</td></tr>
+
+    </table>
+    </br>
+    <!--a tag <table> serve para criação de tabelas -->
+    <!--a tag <caption> paara dar um nome para a tabela -->
+    <!--a tag <tr> significa table row, para criar linhas na tabela-->
+    <!--a tag <td> significa table data, significa para criar os dados que compõe a tabela-->
+
 
    </section>
-
 
     <aside id="lateral">
 
