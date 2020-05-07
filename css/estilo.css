@@ -188,16 +188,44 @@ section#corpo{
 
 table#tabela{
   border: 1px solid gray;
+  border-radius: 8px;
   border-spacing: 0px;
   margin: auto;
 }
 
 table#tabela td{
   border: 1px solid gray;
-  padding: 8px;
+  padding: 10px;
   text-align: center;
+}
+
+table#tabela td.ce{
+  background-color: #4169e1;
+  vertical-align: top;
+  font-weight: bold;
 
 }
+
+table#tabela td.cd{
+  background-color: #40e0d0;
+}
+
+table#tabela caption{
+  font-weight: bolder;
+  font-size: 17px;
+
+}
+
+table#tabela caption span{
+display: block;
+float: right;
+color: black;
+font-size: 8pt;
+margin-top: 10px;
+
+}
+
+
 
 /*Exemplo de posicionamento  de itens na tabela vertical-align: top;*/
 
