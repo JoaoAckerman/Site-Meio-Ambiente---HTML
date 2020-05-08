@@ -46,7 +46,7 @@ body{
  header#cabeçalho figure.covid{
    position: absolute;
    left: 850px;
-   top: 430px;
+   top: 257px;
 
  }
 
@@ -68,10 +68,16 @@ body{
    text-indent: 50px;
  }
 
+ p#paside{
+   text-align: justify;
+   text-indent: 0px;
+ }
+
 
 figure.covid img{
   border-radius: 8px;
   box-shadow: 3px 3px 3px black;
+
 
 }
 
@@ -101,11 +107,13 @@ figure.covid:hover figcaption{
 /*Formatação de imagens com legendas*/
 
 figure.foto-legenda{
-    position: relative;
+    position: absolute;
     border: 3px solid white;
     width: 400px;
     height: 200px;
     box-shadow: 1px 1px 10px white;
+    top: 700px;
+    left: 240px;
 
 
 
@@ -187,10 +195,11 @@ section#corpo{
 }
 
 article#noticia-principal h3{
-  background: gray;
+  background: #a9a9a9;
   padding: 5px 0px 5px 10px;
   margin: 10px;
   border-radius: 8px;
+
 }
 
 table#tabela{
@@ -242,6 +251,18 @@ aside#lateral{
   display: block; /*Definir o espço como um bloco*/
   width: 350px ;
   float: right;
+  box-shadow: 8px 8px 8px #a9a9a9;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+aside#lateral h3{
+  background: #a9a9a9;
+  padding: 5px 0px 5px 10px;
+  border-radius: 8px;
+  margin: -10px -10px 0px -10px;
+
 }
 
 footer#rodape{
