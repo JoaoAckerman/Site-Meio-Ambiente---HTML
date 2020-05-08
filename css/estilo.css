@@ -186,6 +186,13 @@ section#corpo{
 
 }
 
+article#noticia-principal h3{
+  background: gray;
+  padding: 5px 0px 5px 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
 table#tabela{
   border: 1px solid gray;
   border-radius: 8px;
