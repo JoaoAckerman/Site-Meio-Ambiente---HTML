@@ -29,16 +29,18 @@ body{
 
  header#cabeçalho{
 
-   border-bottom: 1px gray solid;
-   height: 55px;
+   height: 30px;
    background-size: 150px;
-   padding: 20px 0px 0px 12px;
+   padding: 5px 0px 5px 12px;
+   background-color: #3883c2;
+   margin: 0px 0px 25px -18px;
  }
 
  header#cabeçalho h2{
-   font-size: 30px;
+   font-size: 22px;
    top: 30px;
    margin: auto;
+   color: white;
 
  }
 
@@ -47,7 +49,7 @@ body{
 
 
  div#interface{
-   background-color: #dddddd;
+   background-color: white;
    width: 1400px;
    margin: 100px auto 50px -10px; /*centralizando o conteúdo da página*/
    box-shadow: 1px 1px 6px white;
@@ -59,6 +61,7 @@ body{
  p{
    text-align: justify;
    text-indent: 50px;
+   margin: 5px 0px 5px 0px;
  }
 
  p#paside{
@@ -74,16 +77,10 @@ body{
 /*Formatação de imagens com legendas*/
 
 figure.foto-legenda{
-    position: absolute;
-    border: 3px solid white;
-    width: 400px;
-    height: 200px;
+    border: 1px solid gray;
     box-shadow: 1px 1px 10px white;
     top: 700px;
     left: 240px;
-
-
-
 }
 figure.foto-legenda img {
     width: 100%;
@@ -91,21 +88,30 @@ figure.foto-legenda img {
 }
 
 figure.foto-legenda figcaption {
-  opacity: 0;
-  position: absolute; /* position absolute para que todos figcaption fiquem dentro do foto legenda*/
-  top: 0px;
-  background-color: rgba(0,0,0,0.4);
-  width: 100%;
-  height: 100%;
-  padding: 10px;   /* criar espaço dentro do campo de legenda*/
-  box-sizing: border-box;
-  transition: opacity 1s;
-
+  margin: 10px;
+  font-size: 10px;
 }
 
-figure.foto-legenda:hover figcaption{
-  opacity: 1;
+figure.foto-legenda2{
+    position: absolute;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px white;
+    top: 570px;
+    left: 980px;
 }
+figure.foto-legenda2 img {
+    width: 300px;
+    height: 280px;
+}
+
+figure.foto-legenda2 figcaption {
+  margin: 10px;
+  font-size: 10px;
+}
+
+
+
+
 
 /*Formatação do Menu*/
 
@@ -117,7 +123,7 @@ nav#menu{
   text-transform: uppercase;  /*uppercase para deixar a letra em maíuscula*/
   position: absolute;
   top: 0px;
-  left: 820px;
+  left: 930px;
 
 }
 
@@ -129,10 +135,11 @@ nav#menu li{
   transition: background-color 1s;  /*Efeito de transição para quando o moouse passar por cima*/
 
 
+
 }
 
 nav#menu li:hover{      /*comando para mudar a cor do  item quando o mouse passar por cima */
-  background-color: #a9a9a9;
+  background-color: #00ff00;
 }
 
 nav#menu h1{
@@ -158,7 +165,7 @@ section#corpo{
  width: 950px ;
  float: left;
  border-right: 1px solid gray;
- padding-right: 20px;
+ padding: 0px 20px 0px 12px;
 
 }
 
@@ -170,44 +177,7 @@ article#noticia-principal h3{
 
 }
 
-table#tabela{
-  border: 1px solid gray;
-  border-radius: 8px;
-  border-spacing: 0px;
-  margin: auto;
-}
 
-table#tabela td{
-  border: 1px solid gray;
-  padding: 10px;
-  text-align: center;
-}
-
-table#tabela td.ce{
-  background-color: #4169e1;
-  vertical-align: top;
-  font-weight: bold;
-
-}
-
-table#tabela td.cd{
-  background-color: #40e0d0;
-}
-
-table#tabela caption{
-  font-weight: bolder;
-  font-size: 17px;
-
-}
-
-table#tabela caption span{
-display: block;
-float: right;
-color: black;
-font-size: 8pt;
-margin-top: 10px;
-
-}
 
 
 
@@ -217,18 +187,34 @@ margin-top: 10px;
 
 aside#lateral{
   display: block; /*Definir o espço como um bloco*/
-  width: 200px ;
+  width: 330px ;
   float: left;
-  margin: 20px;
+
 
 }
 
 aside#lateral h3{
   background: #a9a9a9;
   padding: 5px 0px 5px 10px;
+  margin: 10px;
   border-radius: 8px;
 
+
 }
+
+aside#lateral h4{
+  background: #6fbbd3;
+  height: 80px;
+  padding: 15px 15px 0px 15px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 8px;
+  color: #004680;
+  font-size: 20px;
+
+}
+
+
 
 footer#rodape{
   clear: both; /*Limpar e manter configuração*/
