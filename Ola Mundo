@@ -1,0 +1,23 @@
+<!DOCTYPE html>               <!--Doctype indica que é um documento html-->
+<html lang=pt-br>
+  <head>                      <!--cabeçalho que define os comportamento da página-->
+    <meta charset="utf-8"/>   <!--padronizar para utf-8 para evitar problemas com acentuação-->
+    <title>
+      Coronga Vírus
+    </title>
+    <style>
+    h1{
+      font-family:Arial;
+      font-size: 30pt;
+      color: orange;
+      text-shadow: 2px 2px 2px red;
+    }
+    </style>
+
+  </head>
+  <body>
+    <h1>Olá Mundo!</h1>   <!--h1 significa hierarquia de título sendo h1 pricipal seguido de h2,h3..-->
+    <h2>Últimas Notícias!!</h2>
+    <h3>Corona Vírus</h3>
+  </body>
+</html>
